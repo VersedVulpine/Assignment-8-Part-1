@@ -2,7 +2,7 @@
 //
 
 #include <iostream>
-
+#include "CardDeck.h"
 #include "input.h"
 using namespace std;
 
