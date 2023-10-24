@@ -128,8 +128,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="Assignment 8 Part 1.cpp" />
+    <ClCompile Include="CardDeck.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CardDeck.h" />
     <ClInclude Include="input.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
