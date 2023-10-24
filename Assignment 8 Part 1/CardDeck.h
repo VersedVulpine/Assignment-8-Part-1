@@ -14,11 +14,13 @@ private:
 	
 	//int suit;	// old method of tracking suits
 	string suits[4] = { "Clover", "Diamond", "Heart", "Spade" }; //Card Suit (Spade, Clover, Heart, Diamond)
-	int value;	// Card Value (1 to 13)
+	int cardValue;	// Card Value (1 to 13)
 
 
 public:
 	CardDeck() {}	// Initializer
+
+
 	~CardDeck() {}	// Destructor
 	
 	void setDeckSize(int newSize);	// The max Value of a Card in a suit
@@ -30,6 +32,7 @@ public:
 	void getCard();					// will pull a card from a Deck, and remove it from the vector
 	void returnCard();				// adds back a value of a card to the deck, unless the card is already in the deck.
 
+	void getDeckAmount();			//Checks the amount of cards in the Deck
 	
 
 };
